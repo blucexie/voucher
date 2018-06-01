@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    vertical-align: top;
+}
+.wrap{
+    position: relative;
+    height: 100vh;
+    background: url(../img/voucher-bg.png)no-repeat;
+    background-size: cover;
+    padding-top: 0.1px;
+}
+.entry-out,.redeemNow-out{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.entry{
+    margin-top: 6.2rem;
+    height: 1.28rem;
+}
+.entry img{
+    float: left;
+    width: 1.76rem;
+    height: 1.28rem;
+}
+input::-webkit-input-placeholder {
+        color: #ccc;
+    }
+.entry input{
+    width:6.266667rem;
+    height: 1.28rem;
+    line-height:1.28rem;
+    border: 0;
+    outline: none;
+    padding-left: 0.52rem;
+    font-size: .373333rem;
+    color: #666;
+}
+.redeemNow-out{
+    margin-top: .24rem;
+}
+.redeemNow{
+    width: 8.76rem;
+    height: 1.306667rem;
+    line-height: 1.306667rem ;
+    text-align: center;
+    background: url(../img/redeemNow.png)no-repeat;
+    background-size: cover;
+    font-size: .373333rem;
+    color: #fff;
+}
+.exchangeNote{
+    width: 8.96rem;
+    height:8.213333rem;
+    margin:  0 auto;
+    margin-top: .533333rem;
+    background-color: #fff;
+    padding-top: 0.1px;
+}
+.exchangeNote h2{
+    font-size: .373333rem;
+    color: #666;
+    font-weight: normal;
+    margin-top: .506667rem;
+    margin-left: .56rem;
+}
+.exchangeNote p{
+    font-size: .346667rem;
+    color: #999;
+    margin-left: .56rem;
+    margin-top: .213333rem;
+}
+.footer{
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.leftBall,.rightBall1, .rightBall2{
+    position: absolute;
+}
+.leftBall{
+    width: 1.653333rem;
+    height: 2.386667rem;
+    left: 0;
+    top:9.466667rem;
+}
+.rightBall1{
+    width: 1.12rem;
+    height: 1.786667rem;
+    right: 0;
+    top: 9.066667rem;
+}
+.rightBall2{
+    width: 1.106667rem;
+    height: 1.28rem;
+    right: 0;
+    top: 13.333333rem;
+}
+.footer img,.leftBall img,.rightBall1 img, .rightBall2 img{
+    width: 100%;
+}
+.shade {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+    z-index: 9000;
+}
+.success{
+    display: none;
+    width: 7.146667rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left:-3.573333rem; 
+    z-index: 9999;
+    text-align: center;
+}
+.success img{
+    width: 100%;
+}
+.success>p{
+    width: 100%;
+    position: absolute;
+    bottom: 2.666667rem;
+    font-size: .373333rem;
+    color: #666;
+    text-align: center;
+}
+.btn{
+    width: 3.413333rem;
+    position: absolute;
+    left: 50%;
+    bottom: .266667rem;
+    margin-left: -1.706667rem;
+}
+.btn img{
+    width: 100%;
+}
