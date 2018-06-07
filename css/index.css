@@ -10,11 +10,13 @@
 img{
     vertical-align: top;
 }
+
 .wrap{
     position: relative;
-    height: 100vh;
+  /*   height: 100vh; */
+    width: 100%;
     background: url(../img/voucher-bg.png)no-repeat;
-    background-size: cover;
+    background-size: 10rem 20.706667rem;
     padding-top: 0.1px;
 }
 .entry-out,.redeemNow-out{
@@ -36,11 +38,11 @@ input::-webkit-input-placeholder {
     }
 .entry input{
     width:6.266667rem;
-    height: 1.28rem;
-    line-height:1.28rem;
+    height: .4rem;
+    line-height:.4rem;
+    padding: .453333rem 0 .453333rem 0.52rem;
     border: 0;
     outline: none;
-    padding-left: 0.52rem;
     font-size: .373333rem;
     color: #666;
 }
@@ -75,13 +77,12 @@ input::-webkit-input-placeholder {
 .exchangeNote p{
     font-size: .346667rem;
     color: #999;
-    margin-left: .56rem;
     margin-top: .213333rem;
+    padding: 0 .4rem;
+    text-align: justify;
 }
 .footer{
-    position: absolute;
-    bottom:0;
-    left: 0;
+    margin-top: -1.4rem;
 }
 .leftBall,.rightBall1, .rightBall2{
     position: absolute;
